@@ -1,0 +1,34 @@
+// Originally created for cool.starter by Hugo Taschet
+// https://github.com/Hugtas
+.mar-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mar-xs {
+    margin: $rem-4;
+}
+
+.mar-sm {
+    margin: $rem-8;
+}
+
+.mar-base {
+    margin: $rem-16;
+}
+
+.mar-md {
+    margin: $rem-18;
+}
+
+.mar-lg {
+    margin: $rem-32;
+}
+
+.mar-xl {
+    margin: $rem-40;
+}
+
+.mar-xxl {
+    margin: $rem-48;
+}

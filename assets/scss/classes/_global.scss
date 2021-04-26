@@ -1,0 +1,49 @@
+// Originally created for cool.starter by Hugo Taschet
+// https://github.com/Hugtas
+.fluid {
+    width: 100%;
+}
+
+.fluid-y {
+    height: 100%;
+}
+
+.muted {
+    filter: grayscale(1) opacity(25%);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to
+/* .fade-leave-active below version 2.1.8 */
+
+{
+    opacity: 0;
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 500ms;
+}
+
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
+
+.tooltip-transition-enter-active,
+.tooltip-transition-leave-active {
+    transition: opacity 200ms;
+}
+
+.tooltip-transition-enter,
+.tooltip-transition-leave-to
+/* .fade-leave-active below version 2.1.8 */
+
+{
+    opacity: 0;
+}

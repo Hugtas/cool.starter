@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
+    }
+  },
+  "include": ["./**/*.js", "./**/*.vue", "./**/*.gql"],
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}

@@ -1,0 +1,37 @@
+{
+    "email": {
+        "component": "CInput",
+        "label": "Adresse email",
+        "type": "email",
+        "formId": "login",
+        "validations": {
+            "required": {
+                "params": null,
+                "message": "Ce champs est obligatoire."
+            },
+            "email": {
+                "params": null,
+                "message": "Cette adresse n'est pas valide."
+            }
+        }
+    },
+    "password": {
+        "component": "CInput",
+        "label": "Mot de passe",
+        "type": "password",
+        "formId": "login",
+        "resetLink": "http://google.fr",
+        "validations": {
+            "required": {
+                "params": null,
+                "message": "Ce champs est obligatoire."
+            }
+        }
+    },
+    "agree": {
+        "component": "CToggleInput",
+        "label": "J'accepte de recevoir des emails",
+        "formId": "login",
+        "validations": {}
+    }
+}

@@ -1,0 +1,12 @@
+// Originally created for cool.starter by Hugo Taschet
+// https://github.com/Hugtas
+@mixin width-fit-content {
+    width: -moz-min-content;
+    width: -webkit-min-content;
+    width: min-content;
+}
+
+@mixin fullscreen {
+    height: calc(100vh - calc(100vh - 100%));
+    width: 100vw;
+}

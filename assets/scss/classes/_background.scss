@@ -1,0 +1,184 @@
+// Originally created for cool.starter by Hugo Taschet
+// https://github.com/Hugtas
+.bg-color-base {
+    background-color: $color-bg-base;
+    &.dt {
+        background-color: $color-dt-bg-base;
+    }
+}
+
+.bg-leveled {
+    background-color: $color-card-base;
+    &.dt {
+        background-color: $color-dt-card-base;
+    }
+    &.level-deep {
+        background-color: darken($color-bg-base, 3%);
+        &.dt {
+            background-color: darken($color-dt-bg-base, 3%);
+        }
+    }
+    &.level-ground {
+        background-color: $color-bg-base;
+        &.dt {
+            background-color: $color-dt-bg-base;
+        }
+    }
+    &.level-0 {
+        background-color: $color-card-base;
+        &.dt {
+            background-color: $color-dt-card-base;
+        }
+    }
+    &.level-1 {
+        background-color: lighten($color-card-base, 0.5%);
+        &.dt {
+            background-color: lighten($color-dt-card-base, 0.5%);
+        }
+    }
+    &.level-2 {
+        background-color: lighten($color-card-base, 1%);
+        &.dt {
+            background-color: lighten($color-dt-card-base, 1%);
+        }
+    }
+    &.level-3 {
+        background-color: lighten($color-card-base, 1.5%);
+        &.dt {
+            background-color: lighten($color-dt-card-base, 1.5%);
+        }
+    }
+    &.level-4 {
+        background-color: lighten($color-card-base, 2%);
+        &.dt {
+            background-color: lighten($color-dt-card-base, 2%);
+        }
+    }
+    &.level-5 {
+        background-color: lighten($color-card-base, 3%);
+        &.dt {
+            background-color: lighten($color-dt-card-base, 3%);
+        }
+    }
+}
+
+.bg-color-transparent {
+    background-color: transparent;
+}
+
+.bg-color-white {
+    background-color: $color-white;
+}
+
+.bg-color-black {
+    background-color: $color-black;
+}
+
+.bg-color-grey {
+    background-color: $color-grey;
+}
+
+.bg-color-primary {
+    background-color: $color-primary;
+    &.dt {
+        background-color: $color-dt-primary;
+    }
+}
+
+.bg-color-secondary {
+    background-color: $color-secondary;
+    &.dt {
+        background-color: $color-dt-secondary;
+    }
+}
+
+.bg-color-accent {
+    background-color: $color-accent;
+    &.dt {
+        background-color: $color-dt-accent;
+    }
+}
+
+.bg-color-success {
+    background-color: $color-success;
+    &.dt {
+        background-color: $color-dt-success;
+    }
+}
+
+.bg-color-danger {
+    background-color: $color-danger;
+    &.dt {
+        background-color: $color-dt-danger;
+    }
+}
+
+.bg-color-warning {
+    background-color: $color-warning;
+    &.dt {
+        background-color: $color-dt-warning;
+    }
+}
+
+.bg-color-info {
+    background-color: $color-info;
+    &.dt {
+        background-color: $color-dt-info;
+    }
+}
+
+.bg-color-slot1 {
+    background-color: $color-slot1;
+    &.dt {
+        background-color: $color-dt-slot1;
+    }
+}
+
+.bg-color-slot2 {
+    background-color: $color-slot2;
+    &.dt {
+        background-color: $color-dt-slot2;
+    }
+}
+
+.bg-color-slot3 {
+    background-color: $color-slot3;
+    &.dt {
+        background-color: $color-dt-slot3;
+    }
+}
+
+.bg-color-slot4 {
+    background-color: $color-slot4;
+    &.dt {
+        background-color: $color-dt-slot4;
+    }
+}
+
+.bg-color-slot5 {
+    background-color: $color-slot5;
+    &.dt {
+        background-color: $color-dt-slot5;
+    }
+}
+
+.bg-color-slot6 {
+    background-color: $color-slot6;
+    &.dt {
+        background-color: $color-dt-slot6;
+    }
+}
+
+.bg-color-slot7 {
+    background-color: $color-slot7;
+    &.dt {
+        background-color: $color-dt-slot7;
+    }
+}
+
+.bg-color-slot8 {
+    background-color: $color-slot8;
+    &.dt {
+        background-color: $color-dt-slot8;
+    }
+}

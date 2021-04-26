@@ -1,0 +1,125 @@
+// Originally created for cool.starter by Hugo Taschet
+// https://github.com/Hugtas
+.color-base {
+    color: $color-text-black;
+    &.dt {
+        color: $color-text-white;
+    }
+}
+
+.color-white {
+    color: $color-white;
+}
+
+.color-black {
+    color: $color-black;
+}
+
+.color-grey {
+    color: $color-grey;
+}
+
+.color-primary {
+    color: $color-primary;
+    &.dt {
+        color: $color-dt-primary;
+    }
+}
+
+.color-secondary {
+    color: $color-secondary;
+    &.dt {
+        color: $color-dt-secondary;
+    }
+}
+
+.color-accent {
+    color: $color-accent;
+    &.dt {
+        color: $color-dt-accent;
+    }
+}
+
+.color-success {
+    color: $color-success;
+    &.dt {
+        color: $color-dt-success;
+    }
+}
+
+.color-danger {
+    color: $color-danger;
+    &.dt {
+        color: $color-dt-danger;
+    }
+}
+
+.color-warning {
+    color: $color-warning;
+    &.dt {
+        color: $color-dt-warning;
+    }
+}
+
+.color-info {
+    color: $color-info;
+    &.dt {
+        color: $color-dt-info;
+    }
+}
+
+.color-slot1 {
+    color: $color-slot1;
+    &.dt {
+        color: $color-dt-slot1;
+    }
+}
+
+.color-slot2 {
+    color: $color-slot2;
+    &.dt {
+        color: $color-dt-slot2;
+    }
+}
+
+.color-slot3 {
+    color: $color-slot3;
+    &.dt {
+        color: $color-dt-slot3;
+    }
+}
+
+.color-slot4 {
+    color: $color-slot4;
+    &.dt {
+        color: $color-dt-slot4;
+    }
+}
+
+.color-slot5 {
+    color: $color-slot5;
+    &.dt {
+        color: $color-dt-slot5;
+    }
+}
+
+.color-slot6 {
+    color: $color-slot6;
+    &.dt {
+        color: $color-dt-slot6;
+    }
+}
+
+.color-slot7 {
+    color: $color-slot7;
+    &.dt {
+        color: $color-dt-slot7;
+    }
+}
+
+.color-slot8 {
+    color: $color-slot8;
+    &.dt {
+        color: $color-dt-slot8;
+    }
+}

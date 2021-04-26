@@ -1,0 +1,51 @@
+// Originally created for cool.starter by Hugo Taschet
+// https://github.com/Hugtas
+//Root colors
+$lt-color-base: #FFF;
+$dt-color-base: #191C2F;
+//Light_t
+$color-primary: #ff8352;
+$color-secondary: #6366F1;
+$color-accent: #EC4899;
+$color-success: #10B981;
+$color-danger: #EF4444;
+$color-warning: #F59E0B;
+$color-info: #3B82F6;
+$color-text-black: rgba(0, 0, 0, 0.75);
+$color-text-white: rgba(255, 255, 255, 0.75);
+$color-text-base: $color-text-black;
+$color-black: #000;
+$color-white: #fff;
+$color-grey: #6B7280;
+$color-card-base: $lt-color-base;
+$color-bg-base: darken($lt-color-base, 3%);
+$color-slot1: #fff;
+$color-slot2: #fff;
+$color-slot3: #fff;
+$color-slot4: #fff;
+$color-slot5: #fff;
+$color-slot6: #fff;
+$color-slot7: #fff;
+$color-slot8: #fff;
+//Dark_t
+$color-dt-primary: adjust-color($color-primary, $saturation: -25%);
+$color-dt-secondary: adjust-color($color-secondary, $saturation: -25%);
+$color-dt-accent: adjust-color($color-accent, $saturation: -25%);
+$color-dt-success: adjust-color($color-success, $saturation: -25%);
+$color-dt-danger: adjust-color($color-danger, $saturation: -25%);
+$color-dt-warning: adjust-color($color-warning, $saturation: -25%);
+$color-dt-info: adjust-color($color-info, $saturation: -25%);
+$color-text-base: $color-text-white;
+$color-dt-black: #000;
+$color-dt-white: #fff;
+$color-dt-grey: #6B7280;
+$color-dt-card-base: $dt-color-base;
+$color-dt-bg-base: darken($dt-color-base, 3%);
+$color-dt-slot1: adjust-color($color-slot1, $saturation: -25%);
+$color-dt-slot2: adjust-color($color-slot2, $saturation: -25%);
+$color-dt-slot3: adjust-color($color-slot3, $saturation: -25%);
+$color-dt-slot4: adjust-color($color-slot4, $saturation: -25%);
+$color-dt-slot5: adjust-color($color-slot5, $saturation: -25%);
+$color-dt-slot6: adjust-color($color-slot6, $saturation: -25%);
+$color-dt-slot7: adjust-color($color-slot7, $saturation: -25%);
+$color-dt-slot8: adjust-color($color-slot8, $saturation: -25%);

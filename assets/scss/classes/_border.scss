@@ -1,0 +1,122 @@
+// Originally created for cool.starter by Hugo Taschet
+// https://github.com/Hugtas
+.border-base {
+    border: $rem-1 solid $color-grey;
+}
+
+.border-transparent {
+    border: $rem-1 solid transparent;
+}
+
+.border-white {
+    border: $rem-1 solid $color-white;
+}
+
+.border-black {
+    border: $rem-1 solid $color-black;
+}
+
+.border-primary {
+    border: $rem-1 solid $color-primary;
+    &.dt {
+        border-color: $color-dt-primary;
+    }
+}
+
+.border-secondary {
+    border: $rem-1 solid $color-secondary;
+    &.dt {
+        border-color: $color-dt-secondary;
+    }
+}
+
+.border-accent {
+    border: $rem-1 solid $color-accent;
+    &.dt {
+        border-color: $color-dt-accent;
+    }
+}
+
+.border-success {
+    border: $rem-1 solid $color-success;
+    &.dt {
+        border-color: $color-dt-success;
+    }
+}
+
+.border-danger {
+    border: $rem-1 solid $color-danger;
+    &.dt {
+        border-color: $color-dt-danger;
+    }
+}
+
+.border-warning {
+    border: $rem-1 solid $color-warning;
+    &.dt {
+        border-color: $color-dt-warning;
+    }
+}
+
+.border-info {
+    border: $rem-1 solid $color-info;
+    &.dt {
+        border-color: $color-dt-info;
+    }
+}
+
+.border-slot1 {
+    border: $rem-1 solid $color-slot1;
+    &.dt {
+        border-color: $color-dt-slot1;
+    }
+}
+
+.border-slot2 {
+    border: $rem-1 solid $color-slot2;
+    &.dt {
+        border-color: $color-dt-slot2;
+    }
+}
+
+.border-slot3 {
+    border: $rem-1 solid $color-slot3;
+    &.dt {
+        border-color: $color-dt-slot3;
+    }
+}
+
+.border-slot4 {
+    border: $rem-1 solid $color-slot4;
+    &.dt {
+        border-color: $color-dt-slot4;
+    }
+}
+
+.border-slot5 {
+    border: $rem-1 solid $color-slot5;
+    &.dt {
+        border-color: $color-dt-slot5;
+    }
+}
+
+.border-slot6 {
+    border: $rem-1 solid $color-slot6;
+    &.dt {
+        border-color: $color-dt-slot6;
+    }
+}
+
+.border-slot7 {
+    border: $rem-1 solid $color-slot7;
+    &.dt {
+        border-color: $color-dt-slot7;
+    }
+}
+
+.border-slot8 {
+    border: $rem-1 solid $color-slot8;
+    &.dt {
+        border-color: $color-dt-slot8;
+    }
+}

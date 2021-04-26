@@ -1,0 +1,17 @@
+// Originally created for cool.starter by Hugo Taschet
+// https://github.com/Hugtas
+.trans-fast {
+    transition: all 150ms ease-in-out;
+}
+
+.trans-base {
+    transition: all 300ms ease-in-out;
+}
+
+.trans-slow {
+    transition: all 450ms ease-in-out;
+}
+
+.trans-color {
+    transition: color 200ms ease-in-out, background-color 200ms ease-in-out, border-color 200ms ease-in-out;
+}
